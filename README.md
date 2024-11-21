@@ -38,7 +38,7 @@ The **Blood Bank Management API** provides functionality to manage blood donors'
 
 ---
 
-## Model: Donor
+## Model: BloodBankEntry
 
 The **Donor** model represents the structure of a blood donor's entry and includes the following attributes:
 
