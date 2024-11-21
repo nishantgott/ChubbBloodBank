@@ -8,10 +8,10 @@ Below is an example JSON payload for adding a new donor to the Blood Bank API:
 [
     {
         "id": 4,
-        "donorName": "gaurav VINAL",
+        "donorName": "Nishant Gottimukkala",
         "age": 30,
         "bloodType": "A+",
-        "contactInfo": "gaurav@gmail.com",
+        "contactInfo": "nishantgk2004@gmail.com",
         "quantity": 3,
         "collectionDate": "2024-11-21T05:46:19.764Z",
         "expirationDate": "2024-11-21T05:46:19.764Z",
@@ -76,7 +76,6 @@ The **Donor** model represents the structure of a blood donor's entry and includ
 #### Add a New Donor
 - **Endpoint**: `POST /api/bloodbank`
 - **Description**: Adds a new donor record to the system.
-- **Request Body**: [Example JSON](#adding-a-new-donor)
 - **Response**: The created donor entry.
 
 #### Update Donor by ID
@@ -84,7 +83,6 @@ The **Donor** model represents the structure of a blood donor's entry and includ
 - **Description**: Updates the details of an existing donor.
 - **Request Parameters**:
   - `id` (path parameter): The ID of the donor to update.
-- **Request Body**: [Example JSON](#updating-an-existing-donor)
 - **Response**: `204 No Content` if successful, or `404 Not Found` if the donor does not exist.
 
 #### Delete Donor by ID
